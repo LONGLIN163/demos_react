@@ -1,5 +1,5 @@
 
-##  redux+antdhaha
+##  redux+antd
 
 ### set up antd and redux
 
