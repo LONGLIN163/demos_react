@@ -29,7 +29,7 @@ class TodoList extends Component {
             const data=res.data;
             const action=getList(data)
             store.dispatch(action)
-        })
+        }) 
     }
 
     changeInput(e){

@@ -32,7 +32,7 @@ class TodoList extends Component {
         const action=add()
         store.dispatch(action)
     }
-
+ 
     del(index){
         const action=del(index)
         store.dispatch(action)
