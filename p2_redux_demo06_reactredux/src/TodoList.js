@@ -25,7 +25,6 @@ const TodoList=(props)=>{
     );
 }
 
-
 const stateToProps=(state)=>{
     return {
       inputvalue:state.inputvalue,

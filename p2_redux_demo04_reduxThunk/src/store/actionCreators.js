@@ -8,7 +8,7 @@ export const changeInputAction=(value)=>({
 export const add=()=>({
     type:ADD
 })
-export const del=(index)=>({
+export const del=(index)=>({ 
     type:DEL,
     index
 })
@@ -25,4 +25,4 @@ export const getTodoList=()=>{
             dispatch(action)
         })
     }
-}
+} 

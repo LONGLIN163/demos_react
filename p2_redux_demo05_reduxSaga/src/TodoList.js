@@ -25,6 +25,8 @@ class TodoList extends Component {
 
     componentDidMount(){
         const action=getMyList()
+        //console.log("action---",action)
+        console.log("***getMyList ation***")
         store.dispatch(action)
     } 
 
