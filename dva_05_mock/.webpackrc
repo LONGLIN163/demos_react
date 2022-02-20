@@ -1,0 +1,10 @@
+{
+    "proxy": { 
+        "/apihahaha": {
+        "target": "https://cnodejs.org",
+        "changeOrigin": true,
+        "pathRewrite": { "^/apihahaha": "" }
+      }
+    }
+}
+ 
